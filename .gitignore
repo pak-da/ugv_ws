@@ -1,0 +1,45 @@
+# ROS 2 workspace directories
+/build/
+/install/
+/log/
+/src/CMakeLists.txt
+
+# ROS 2 setup files
+.colcon/
+
+# Temporary files and system files
+*.swp
+*.tmp
+*~
+*.bak
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# ROS 2 launch and log artifacts
+launch_logs/
+*.db
+*.log
+
+# Editor-specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS specific
+.DS_Store
+
+# Linux specific
+*~
+*.lock
+*.pid
+
+# ROS 2 testing and debugging artifacts
+testing/
+results/
+
+# Backup files
+*.orig
+*.save
+
